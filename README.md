@@ -30,7 +30,7 @@ Random Zoom
 
 Conv2D → BatchNorm → Conv2D → BatchNorm → MaxPooling → Dropout
 
-Fully Connected Layers
+FULLY CONNECTED LAYERS
 
 Dense(128, relu) + Dropout(0.5)
 
