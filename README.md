@@ -1,24 +1,30 @@
-# cnn-cifar
-This project builds and trains a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into 10 categories. The model uses data augmentation, Batch Normalization, Dropout, and a multi-layer CNN architecture to achieve high accuracy.
+CNN-CIFAR10 Image Classification
 
-CIFAR-10 contains 60,000 color images (32×32 px) across 10 classes:
-airplane
-automobile
-bird
-cat
-deer
-dog
-frog
-horse
-ship
-truck
+A Convolutional Neural Network (CNN) trained on the CIFAR-10 dataset to classify images into 10 object categories.
+This project includes model building, training, evaluation, and visualizations such as accuracy/loss curves and a confusion matrix.
 
-50,000 images → training
-10,000 images → testing
+Dataset: CIFAR-10
 
-The project uses a deep CNN with:
+CIFAR-10 contains 60,000 color images (32×32) across 10 classes:
 
-Data Augmentation
+| airplane | automobile | bird | cat | deer |
+| dog | frog | horse | ship | truck |
+
+50,000 images → Training
+
+10,000 images → Testing
+
+Model Architecture
+
+The CNN consists of data augmentation, three convolutional blocks, and dense layers:
+
+🔹 Data Augmentation
+
+Random Flip
+
+Random Rotation
+
+Random Zoom
 
 3 Convolution Blocks
 
@@ -39,15 +45,17 @@ Loss: Sparse Categorical Crossentropy
 Batch Size: 64
 
 Epochs: 20–30
+Model Performance
 
-Training Accuracy: ~85% (depending on number of epochs)
+Typical performance after training:
+
+Training Accuracy: ~85%
 
 Test Accuracy: ~75–80%
 
-Includes:
+Included Visualizations
 
-Accuracy graph
+✔ Training vs. Validation Accuracy
+✔ Training vs. Validation Loss
+✔ Confusion Matrix
 
-Loss graph
-
-Confusion matrix
