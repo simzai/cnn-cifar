@@ -2,25 +2,15 @@
 This project builds and trains a Convolutional Neural Network (CNN) to classify images from the CIFAR-10 dataset into 10 categories. The model uses data augmentation, Batch Normalization, Dropout, and a multi-layer CNN architecture to achieve high accuracy.
 
 CIFAR-10 contains 60,000 color images (32×32 px) across 10 classes:
-
 airplane
-
 automobile
-
 bird
-
 cat
-
 deer
-
 dog
-
 frog
-
 horse
-
 ship
-
 truck
 
 50,000 images → training
